@@ -8,8 +8,15 @@ const About = () => {
   return (
     <MDBContainer>
     <MDBRow>
-      <MDBCol md="12">
-       o mnie 
+      <MDBCol className="mt-2" md="12">
+     <p>App is create by University of Gdańsk student, Damian Szymański. Goal of this project is improving his knowlegde about React</p>
+     <p>Technologies used in project:
+<ul>
+  <li>React</li>
+  <li>Firebase for authentication</li>
+  <li>MongoDB</li>
+</ul>
+     </p>
       </MDBCol>
     </MDBRow>
   </MDBContainer>

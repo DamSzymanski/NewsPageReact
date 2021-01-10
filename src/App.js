@@ -26,6 +26,12 @@ class App extends React.Component {
   toggleCollapse = () => {
     this.setState({ isOpen: !this.state.isOpen });
   }
+  /*
+    <MDBNavItem>
+              <MDBNavLink to="/live">Relacja na żywo</MDBNavLink>
+            </MDBNavItem>
+
+            */
   render() {
     return(<AuthProvider>
       <Router>
@@ -39,9 +45,6 @@ class App extends React.Component {
           <MDBNavbarNav left>
             <MDBNavItem >
               <MDBNavLink to="/">Strona główna</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="/live">Relacja na żywo</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink to="/about">O stronie</MDBNavLink>

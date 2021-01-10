@@ -43,9 +43,9 @@ class Home extends React.Component {
       <h3 className="text-center mt-2">Najświeższe newsy ze świata</h3>
     <MDBRow >
         {news.map(item => (
-    <MDBCol key={item._id} md='4'>
+    <MDBCol key={item._id} md='4' style={{marginTop: "10px",marginBottom:"50px!important"}}>
       
-      <MDBCard style={{marginTop: "10px",marginBottom:"10px"}}>
+      <MDBCard className="h-100">
       <MDBCardImage className="img-fluid" src={faker.image.image()} waves />
         <MDBCardBody>
           <MDBCardTitle className="text-center">{item.title}</MDBCardTitle>
