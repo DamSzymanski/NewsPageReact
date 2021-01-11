@@ -9,18 +9,18 @@ Dane przechowywane są w bazie MongoDB.
 
 W aplikacji znajdują się widoki:
 * Home - wyświetla listę newsów <br />
-<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/home.png" /><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/home.png" width="500" /><br />
 * Login - panel logowania, jeśli serwis Firebase zatwierdzi użytkownika (jest zalogowany), przeniesie go do Dashboardu <br/>
-<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/logowanie.PNG" /><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/logowanie.PNG" width="500" /><br />
 * Dashboard - panel administracyjny <br />
-<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel1.PNG" /><br />
-<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel2.PNG" /><br />
-<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel3.PNG" /><br />
-<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel4.PNG" /><br />
-<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel5.PNG" /><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel1.PNG" width="500"/><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel2.PNG" width="500"/><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel3.PNG" width="500"/><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel4.PNG" width="500"/><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel5.PNG" width="500"/><br />
 
 * NewsDetails - widok ze szczegółami newsa, zawiera także komponent Comments z wygenerowaną z backendu listą komentarzy. <br />
-<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/details.PNG" /><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/details.PNG" width="500" /><br />
 
 * About - informacje o stronie <br />
 
