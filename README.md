@@ -21,7 +21,7 @@ W aplikacji znajdują się widoki:
 
 * NewsDetails - widok ze szczegółami newsa, zawiera także komponent Comments z wygenerowaną z backendu listą komentarzy. <br />
 <img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/details.PNG" width="500" /><br />
-
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/comments.PNG" width="500" /><br />
 * About - informacje o stronie <br />
 
 Domyślny url aplikacji do `http://localhost:3000`
