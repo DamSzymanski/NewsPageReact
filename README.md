@@ -3,7 +3,7 @@
 Projekt powstał w celu poszerzenia wiedzy na temat Reacta i współpracujących z nim technologii. Zadaniem aplikacji jest imitacja rzeczywistego portalu informacyjnego. W ramach aplikacji użytkownik może przeglądać newsy dodane przez administratora, a także czytać wygenerowane z backendu komentarze, utworzone za pomocą biblioteki Faker. 
 W aplikacji znajduje się także panel administracyjny, do którego dostępu pilnuje Firebase Authentication. To samo tyczy się funkcji, które panel dostarcza, gdyż są one walidowane przez backend za pomocą tokenu. 
 
-Za warstwę wizualną odpowiada MDBootstrap. Dostarcza on wiele przydatnych komponentów i jest łatwy w implementacji. 
+Za warstwę wizualną odpowiada framework MDBootstrap. Dostarcza on wiele przydatnych komponentów i jest łatwy w implementacji. 
 
 Dane przechowywane są w bazie MongoDB.
 
