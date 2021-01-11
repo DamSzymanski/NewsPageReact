@@ -33,14 +33,14 @@ const Login = ({ history }) => {
     <MDBRow>
       <MDBCol md="12">
         <form onSubmit={handleLogin}>
-          <p className="h5 text-center mb-4">Sign in</p>
+          <p className="h5 text-center mt-4 mb-4">Logowanie</p>
           <div className="grey-text">
-            <MDBInput name="email" label="Type your email" icon="envelope" group type="email" validate error="wrong"
+            <MDBInput name="email" label="Email" icon="envelope" group type="email" validate error="wrong"
               success="right" />
-            <MDBInput name="password"  label="Type your password" icon="lock" group type="password" validate />
+            <MDBInput name="password"  label="Hasło" icon="lock" group type="password" validate />
           </div>
           <div className="text-center">
-            <MDBBtn type="submit">Login</MDBBtn>
+            <MDBBtn type="submit">Zaloguj</MDBBtn>
           </div>
         </form>
       </MDBCol>
