@@ -8,17 +8,21 @@ Za warstwę wizualną odpowiada MDBootstrap. Dostarcza on wiele przydatnych komp
 Dane przechowywane są w bazie MongoDB.
 
 W aplikacji znajdują się widoki:
-* Home - wyświetla listę newsów 
+* Home - wyświetla listę newsów <br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/home.png" /><br />
+* Login - panel logowania, jeśli serwis Firebase zatwierdzi użytkownika (jest zalogowany), przeniesie go do Dashboardu <br/>
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/logowanie.PNG" /><br />
+* Dashboard - panel administracyjny <br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel1.PNG" /><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel2.PNG" /><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel3.PNG" /><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel4.PNG" /><br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/panel5.PNG" /><br />
 
-* Login - panel logowania, jeśli serwis Firebase zatwierdzi użytkownika (jest zalogowany), przeniesie go do Dashboardu 
+* NewsDetails - widok ze szczegółami newsa, zawiera także komponent Comments z wygenerowaną z backendu listą komentarzy. <br />
+<img src="https://github.com/DamSzymanski/NewsPageReact/blob/master/public/details.PNG" /><br />
 
-* Dashboard - panel administracyjny
-
-* About - informacje o stronie
-
-* NewsDetails - Szczegóły newsa, zawiera także komponent Comments z wygenerowaną z backendu listą komentarzy.
-
-
+* About - informacje o stronie <br />
 
 Domyślny url aplikacji do `http://localhost:3000`
 
